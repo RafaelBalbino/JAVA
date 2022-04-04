@@ -59,7 +59,7 @@ public class Exercicio4 {
 		}
 		contInt++;
 		
-		while (contInt <= 6) {
+		while (contInt < 150 && idade>=1 && sexo>=1 && sexo<=3 && opcao>=1 && opcao<=3) {
 			
 			System.out.println("PRÓXIMO INTREVISTADO!");
 			System.out.print("Digite sua idade: ");
