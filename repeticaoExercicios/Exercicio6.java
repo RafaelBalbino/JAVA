@@ -1,6 +1,6 @@
 package repeticaoExercicios;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 /* 6 - Escrever um programa que receba vários números inteiros 
  * no teclado. 
