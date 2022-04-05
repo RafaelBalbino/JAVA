@@ -1,4 +1,5 @@
-package exercicios1a4;
+package exerciciosCondicionais;
+
 // 2-	Faça um programa que entre com três números e coloque em ordem crescente.
 
 import java.util.Scanner;
