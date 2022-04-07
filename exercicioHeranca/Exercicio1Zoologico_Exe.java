@@ -3,8 +3,8 @@ package exercicioHeranca;
 public class Exercicio1Zoologico_Exe {
 
 	public static void main(String[] args) {
-		/* Classe desnecessária para o exercício 1 e 2 mas é sempre 
-		 * bom testar se tudo está funciona direitinho, né? */
+		/* Classe desnecessária para o exercício 1 mas é sempre 
+		 * bom testar se tudo está funcionando direitinho, né? */
 		
 		Exercicio1Cachorro_Sub cachorro = new Exercicio1Cachorro_Sub();
 		Exercicio1Cavalo_Sub cavalo = new Exercicio1Cavalo_Sub();
