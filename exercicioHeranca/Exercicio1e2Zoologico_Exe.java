@@ -1,0 +1,32 @@
+package exercicioHeranca;
+
+public class Exercicio1e2Zoologico_Exe {
+
+	public static void main(String[] args) {
+		/* Classe desnecessária para o exercício 1 e 2 mas é sempre 
+		 * bom testar se tudo está funciona direitinho, né? */
+		
+		Exercicio1e2Cachorro_Sub cachorro = new Exercicio1e2Cachorro_Sub();
+		Exercicio1e2Cavalo_Sub cavalo = new Exercicio1e2Cavalo_Sub();
+		Exercicio1e2Preguica_Sub preguica = new Exercicio1e2Preguica_Sub();
+		
+		System.out.println("Venham, venham! Nossos queridos animais irão fazer "
+			               + "suas apresentações! \n");
+		
+		cachorro.correr();
+		cachorro.emitirSom();
+		
+		System.out.println();
+		
+		cavalo.galopar();
+		cavalo.emitirSom();
+		
+		System.out.println();
+		
+		preguica.subirEmArvore();
+		preguica.emitirSom();
+		
+		System.out.println("\nIsso é tudo pessoal! Amanhã tem mais!");
+	}
+
+}
