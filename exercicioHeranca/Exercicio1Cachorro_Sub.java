@@ -9,30 +9,8 @@ package exercicioHeranca;
  * anterior e invoque o método que emite o som de cada um de forma polimórfica, 
  * isto é, independente do tipo de animal. */
 
-public class Exercicio1e2Animal_Sup {
-		private String nome;
-		private int idade;
-		
-		public void emitirSom() {
-			System.out.println("Emitindo som característico...");
+public class Exercicio1Cachorro_Sub  extends Exercicio1Animal_Sup {
+		public void correr() {
+			System.out.println("Olha o cachorrinhu correnu!");
 		}
-
-		/** @return the nome */
-		public String getNome() {
-			return nome;
-		}
-
-		/** @param nome the nome to set */
-		public void setNome(String nome) {
-			this.nome = nome;
-		}
-
-		public int getIdade() {
-			return idade;
-		}
-
-		public void setIdade(int idade) {
-			this.idade = idade;
-		}
-		
 }

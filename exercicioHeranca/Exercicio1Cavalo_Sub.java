@@ -9,8 +9,8 @@ package exercicioHeranca;
  * anterior e invoque o método que emite o som de cada um de forma polimórfica, 
  * isto é, independente do tipo de animal. */
 
-public class Exercicio1e2Preguica_Sub extends Exercicio1e2Animal_Sup {
-		public void subirEmArvore() {
-			System.out.println("Olha o bichu preguiça subinu naquele árvore!");
+public class Exercicio1Cavalo_Sub extends Exercicio1Animal_Sup {
+		public void galopar() {
+			System.out.println("Olha o cavalu galopanu!");
 		}
 }
