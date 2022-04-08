@@ -7,10 +7,17 @@ package exercicioHeranca;
 
 /* 2 - Implemente um programa que crie os 3 tipos de animais definidos no exercício 
  * anterior e invoque o método que emite o som de cada um de forma polimórfica, 
- * isto é, independente do tipo de animal. */
+ * isto é, dependente do tipo de animal. */
 
 public class Exercicio1Preguica_Sub extends Exercicio1Animal_Sup {
+	
+		@Override
+		public void emitirSom() {
+			System.out.println("YAAAAWN!");
+		}
+		
 		public void subirEmArvore() {
-			System.out.println("Olha o bichu preguiça subinu naquele árvore!");
+			System.out.println("Olha o bichu preguiça subinu naquele árvore...! +"
+					+ "Mas bem lentinho, hein?");
 		}
 }
